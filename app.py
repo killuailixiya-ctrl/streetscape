@@ -38,7 +38,7 @@ def get_user_comparison_count(user_id: str) -> int:
 st.sidebar.subheader("管理员登录")
 admin_password = st.sidebar.text_input("请输入管理员密码", type="password")
 
-if admin_password == "2023202090005":
+if admin_password == "2025202090004":
     st.sidebar.success("身份验证成功")
     st.success("密码正确，请点击下方按钮下载所有结果文件：")
 
