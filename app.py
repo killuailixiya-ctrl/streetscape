@@ -6,7 +6,7 @@ from collections import defaultdict
 from trueskill import Rating, rate_1vs1
 from PIL import Image
 
-IMAGE_FOLDER = "imagebulid"
+IMAGE_FOLDER = "imagebuild"
 PERCEPTIONS = [" "]          # 你可以按需改成多维度
 # PERCEPTIONS = ["美丽", "无聊", "压抑", "活力", "安全", "繁华"]
 RESULT_CSV_TEMPLATE = "comparison_results_{}.csv"
